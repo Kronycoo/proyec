@@ -13,7 +13,7 @@ function verificar() {
 
 function escribir(name) {
   const typed = new Typed(".typed", {
-    strings: [name],
+    strings: ['HUEVOS ' + name],
     typeSpeed: 100,
     startDelay: 350,
   });
