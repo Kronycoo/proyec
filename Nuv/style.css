@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4e7d5;
+}
+
+header {
+    width: 100vw;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1 {
+    color: #84b09b;
+    font-size: 4rem;
+    text-align: center;
+}
+
+h1::before {
+    content: "¡";
+}
+
+h1::after {
+    content: "!";
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 3rem;
+    }
+}
